@@ -1,0 +1,227 @@
+$date
+	Wed Mar  8 19:21:24 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module fetch_tb $end
+$var wire 64 ! valP [63:0] $end
+$var wire 64 " valC [63:0] $end
+$var wire 4 # rB [3:0] $end
+$var wire 4 $ rA [3:0] $end
+$var wire 1 % mem_error $end
+$var wire 1 & instr_valid $end
+$var wire 4 ' ifun [3:0] $end
+$var wire 4 ( icode [3:0] $end
+$var wire 1 ) hlt $end
+$var reg 64 * PC [63:0] $end
+$var reg 1 + clk $end
+$scope module DUT $end
+$var wire 64 , PC [63:0] $end
+$var wire 1 + clk $end
+$var reg 1 ) hlt $end
+$var reg 4 - icode [3:0] $end
+$var reg 4 . ifun [3:0] $end
+$var reg 1 & instr_valid $end
+$var reg 1 % mem_error $end
+$var reg 8 / opcode [7:0] $end
+$var reg 4 0 rA [3:0] $end
+$var reg 4 1 rB [3:0] $end
+$var reg 8 2 regids [7:0] $end
+$var reg 64 3 valC [63:0] $end
+$var reg 64 4 valP [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 4
+b0 3
+bx 2
+b1111 1
+b1111 0
+bx /
+bx .
+bx -
+b0 ,
+0+
+b0 *
+0)
+bx (
+bx '
+1&
+0%
+b1111 $
+b1111 #
+b0 "
+b0 !
+$end
+#10
+b1 !
+b1 4
+b0 '
+b0 .
+b1 (
+b1 -
+b10000 /
+1+
+#20
+b1 *
+b1 ,
+0+
+#30
+b11 !
+b11 4
+b1 #
+b1 1
+b0 $
+b0 0
+b1 2
+b110 (
+b110 -
+b1100000 /
+1+
+#40
+b11 *
+b11 ,
+0+
+#50
+b1101 !
+b1101 4
+b11111111 "
+b11111111 3
+b10 #
+b10 1
+b1111 $
+b1111 0
+b11110010 2
+b11 (
+b11 -
+b110000 /
+1+
+#60
+b1101 *
+b1101 ,
+0+
+#70
+b10111 !
+b10111 4
+b101 "
+b101 3
+b11 #
+b11 1
+b11110011 2
+1+
+#80
+b10111 *
+b10111 ,
+0+
+#90
+b11001 !
+b11001 4
+b101 #
+b101 1
+b100 $
+b100 0
+b1000101 2
+b10 (
+b10 -
+b100000 /
+1+
+#100
+b11001 *
+b11001 ,
+0+
+#110
+b11011 !
+b11011 4
+b100 #
+b100 1
+b11 $
+b11 0
+b110100 2
+b10 '
+b10 .
+b110 (
+b110 -
+b1100010 /
+1+
+#120
+b11011 *
+b11011 ,
+0+
+#130
+b11101 !
+b11101 4
+b110 #
+b110 1
+b101 $
+b101 0
+b1010110 2
+b101 '
+b101 .
+b10 (
+b10 -
+b100101 /
+1+
+#140
+b11101 *
+b11101 ,
+0+
+#150
+b100110 !
+b100110 4
+b100111 "
+b100111 3
+b0 '
+b0 .
+b111 (
+b111 -
+b1110000 /
+1+
+#160
+b100110 *
+b100110 ,
+0+
+#170
+b100111 !
+b100111 4
+b1 (
+b1 -
+b10000 /
+1+
+#180
+b100111 *
+b100111 ,
+0+
+#190
+b101001 !
+b101001 4
+b101 #
+b101 1
+b11 $
+b11 0
+b110101 2
+b110 (
+b110 -
+b1100000 /
+1+
+#200
+b101001 *
+b101001 ,
+0+
+#210
+b101010 !
+b101010 4
+1)
+b0 (
+b0 -
+b0 /
+1+
+#220
+b101010 *
+b101010 ,
+0+

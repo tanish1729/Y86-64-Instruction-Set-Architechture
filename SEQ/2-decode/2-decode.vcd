@@ -1,0 +1,134 @@
+$date
+	Thu Feb 23 18:38:44 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decode_tb $end
+$var wire 64 ! valB [63:0] $end
+$var wire 64 " valA [63:0] $end
+$var reg 1 # clk $end
+$var reg 4 $ icode [3:0] $end
+$var reg 4 % rA [3:0] $end
+$var reg 4 & rB [3:0] $end
+$scope module DUT $end
+$var wire 1 # clk $end
+$var wire 4 ' icode [3:0] $end
+$var wire 4 ( rA [3:0] $end
+$var wire 4 ) rB [3:0] $end
+$var reg 64 * valA [63:0] $end
+$var reg 64 + valB [63:0] $end
+$var integer 32 , i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 ,
+b0 +
+b0 *
+bx )
+b0 (
+b10 '
+bx &
+b0 %
+b10 $
+0#
+b0 "
+b0 !
+$end
+#10
+1#
+#20
+b1110 &
+b1110 )
+b11 $
+b11 '
+0#
+#30
+b1110 !
+b1110 +
+1#
+#40
+b1101 &
+b1101 )
+b1 %
+b1 (
+b100 $
+b100 '
+0#
+#50
+b1101 !
+b1101 +
+b1 "
+b1 *
+1#
+#60
+b1100 &
+b1100 )
+b101 $
+b101 '
+0#
+#70
+b1100 !
+b1100 +
+1#
+#80
+b1011 &
+b1011 )
+b10 %
+b10 (
+b110 $
+b110 '
+0#
+#90
+b1011 !
+b1011 +
+b10 "
+b10 *
+1#
+#100
+b1010 &
+b1010 )
+b1000 $
+b1000 '
+0#
+#110
+b100 !
+b100 +
+1#
+#120
+b1001 &
+b1001 )
+b11 %
+b11 (
+b1001 $
+b1001 '
+0#
+#130
+b100 "
+b100 *
+1#
+#140
+b100 %
+b100 (
+b1010 $
+b1010 '
+0#
+#150
+1#
+#160
+b1000 &
+b1000 )
+b101 %
+b101 (
+b1011 $
+b1011 '
+0#
+#170
+1#
+#180
+0#
